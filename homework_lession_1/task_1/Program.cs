@@ -18,3 +18,4 @@ if (number_1 == number_2)
 {
         Console.WriteLine($"Числа {number_1} и {number_2} равны.");
 }
+
