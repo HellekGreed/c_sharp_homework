@@ -1,0 +1,15 @@
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\task_1.csproj.AssemblyReference.cache
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\task_1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\task_1.AssemblyInfoInputs.cache
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\task_1.AssemblyInfo.cs
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\task_1.csproj.CoreCompileInputs.cache
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\bin\Debug\net6.0\task_1.exe
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\bin\Debug\net6.0\task_1.deps.json
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\bin\Debug\net6.0\task_1.runtimeconfig.json
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\bin\Debug\net6.0\task_1.dll
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\bin\Debug\net6.0\task_1.pdb
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\task_1.dll
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\refint\task_1.dll
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\task_1.pdb
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\task_1.genruntimeconfig.cache
+c:\Games\lessions\c_sharp_homework\homework_lession_1\task_1\obj\Debug\net6.0\ref\task_1.dll
