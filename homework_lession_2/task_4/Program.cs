@@ -1,6 +1,6 @@
 ﻿void Glo()
 {
-        int x = new Random().Next(0, 2000000000);
+        int x = new Random().Next(100, 2000000000);
         Console.WriteLine(x);
         int x2 = x;
         int count = 1;
