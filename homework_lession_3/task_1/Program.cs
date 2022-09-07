@@ -1,4 +1,4 @@
-﻿string Reverse(int num)
+﻿int Reverse(int num)
 {        
     int num1 = Math.Abs(num);
     string num2 = null;
@@ -10,13 +10,13 @@
         num1 /= 10;
        
     }
-
-    return num2;
+    
+    return Convert.ToInt32(num2);
 }
 
 Console.Write("Введите целое число: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
-int number2 = Convert.ToInt32(Reverse(number1));
+int number2 = Reverse(number1);
 
 if (Math.Abs(number1) == number2)
 {
