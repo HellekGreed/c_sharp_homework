@@ -1,9 +1,9 @@
 ﻿double GetExp(double number1, double number2)
 {
 
-         //double result = Math.Pow(number1, number2);
+       //  double result = Math.Pow(number1, number2);
         
-         //Сам алгоритм возведения в степень я реализовал бы так:
+        // Сам алгоритм возведения в степень я реализовал бы так:
         
         double result = 1;
 
@@ -21,8 +21,8 @@
         {
                 return 1 / result;
         }
-        
-        return result; // Любое число за исключением нуля возведенное в нулевую степень дает еденицу
+       
+        return result; // Любое число за возведенное в нулевую степень дает еденицу (метод Math.Pow(0, 0) выдает еденицу)
 
 }
 Console.Write("Введите целое число: ");
