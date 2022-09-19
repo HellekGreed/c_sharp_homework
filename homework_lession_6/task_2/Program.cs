@@ -1,14 +1,13 @@
 ﻿void FindPointCrossing(double b1,double k1, double b2,double k2)
 {
-    double pointCrossing1 = 0;
-    double pointCrossing2 = 0;
+    double y = 0;
     double x = 0;
 
     x = (b2 - b1) / (k1 - k2);
 
-    pointCrossing1 = k1 * x + b1;
+    y = k1 * x + b1;
 
-    Console.WriteLine($"Точка пересечения прямых ({b1};{k1}) и ({b2};{k2}) равна ({pointCrossing1};{x})");
+    Console.WriteLine($"Точка пересечения прямых ({b1};{k1}) и ({b2};{k2}) равна ({y};{x})");
 }
 
 Console.WriteLine("Задайте первую прямую.");
