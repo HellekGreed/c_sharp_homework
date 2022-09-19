@@ -7,9 +7,8 @@
     x = (b2 - b1) / (k1 - k2);
 
     pointCrossing1 = k1 * x + b1;
-    pointCrossing2 = k2 * x + b2;
 
-    Console.WriteLine($"Точка пересечения прямых ({b1};{k1}) и ({b2};{k2}) равна ({pointCrossing1};{pointCrossing2})");
+    Console.WriteLine($"Точка пересечения прямых ({b1};{k1}) и ({b2};{k2}) равна ({pointCrossing1};{x})");
 }
 
 Console.WriteLine("Задайте первую прямую.");
