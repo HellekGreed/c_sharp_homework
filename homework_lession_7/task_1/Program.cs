@@ -1,10 +1,10 @@
 ﻿double[,] GetRandomArray()
 {
         Console.Write("Введите желаемое коллчичество чисел в строке(это должно быть целое число): ");
-        int m = Convert.ToInt32(Console.ReadLine());
+        int m = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
         Console.Write("Введите желаемое коллчичество строк(это должно быть целое число): ");
-        int n = Convert.ToInt32(Console.ReadLine());
+        int n = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
         double[,] array = new double[n, m];
         var random = new Random();
