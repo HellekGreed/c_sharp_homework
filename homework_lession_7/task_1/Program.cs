@@ -16,7 +16,7 @@
                         int number = random.Next(0, 2);
                         if ( number == 0 )
                         {
-                                array[i, j] = Math.Round((random.NextDouble() * random.Next(-10, 10)), 2);
+                                array[i, j] = Math.Round((random.NextDouble() * random.Next(-10, 10)), 1);
                         }
                         else
                         {
