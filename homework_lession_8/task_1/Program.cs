@@ -29,16 +29,13 @@ int[,] GetSortArray(int[,] array)
         {
                 for(int j = 0 ; j < array.GetLength(1) ; j++)
                 {
-                        for(int k = 0 ; k < array.GetLength(1) ; k++)
+                        for(int k = j ; k < array.GetLength(1) ; k++)
                         {
-                                for(int n = k; n < array.GetLength(1); n++)
+                                if(array[i,j] < array[i,k])
                                 {
-                                        if(array[i,k] < array[i,n])
-                                        {
-                                                temp = array[i,k];
-                                                array[i,k] = array[i,n];
-                                                array[i,n] = temp;
-                                        }
+                                        temp = array[i,j];
+                                        array[i,j] = array[i,k];
+                                        array[i,k] = temp;
                                 }
                         }
                 }
