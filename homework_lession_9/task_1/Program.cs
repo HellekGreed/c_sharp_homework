@@ -1,20 +1,16 @@
 ﻿string PrintNumbers(int m, int n)
 {
-        string res = String.Empty;
-
         if(n == m)
         {
                 return Convert.ToString(n);
         }
         else if(m < n)
         {
-                res += m + " " + PrintNumbers(m + 1, n);
-                return res;
+                return m + " " + PrintNumbers(m + 1, n);
         }
         else
         {
-                res += m + " " + PrintNumbers(m - 1, n);
-                return res;
+                return m + " " + PrintNumbers(m - 1, n);
         }
 }
 Console.Write("Введите М: ");
